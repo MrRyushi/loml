@@ -7,7 +7,7 @@ const FirstDate = () => {
         const audio = new Audio('/inout.mp3');
         audio.loop = true;
         audio.play();
-        audio.volume = 0.3;
+        audio.volume = 0.7;
       }, []);
   return (
     <div className='w-screen h-screen bg-gradient-to-t from-light-palette to-green-palette flex justify-center items-center px-2 py-20'>
