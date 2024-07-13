@@ -3,9 +3,10 @@ import { BackgroundBlogCard } from '../components/BackgroundBlogCard'
 
 const NewDate = () => {
   return (
-    <div className='w-screen h-auto bg-gradient-to-t from-light-palette to-green-palette flex justify-center items-center px-4 py-20 md:py-32'>
+    <div className='w-screen h-auto bg-gradient-to-t from-light-palette to-green-palette flex justify-center items-center px-4 py-20 md:py-32 montserrat'>
         <div className='space-y-5 md:w-11/12 2xl:w-4/5 3xl:w-5/6 mx-auto xl:space-y-10'>
             <h1 className='text-center montserrat text-white-palette text-4xl md:text-5xl xl:text-6xl 2xl:text-7xl'>Select a type of date 🙈</h1>
+            <h2 className='text-center text-slate-50 text-2xl md:text-3xl xl:text-4xl 2xl:text-5xl'>Click the card to request the specific date 💘</h2>
             <div className='grid md:grid-cols-2 xl:grid-cols-3 3xl:grid-cols-4 gap-5 justify-center'> 
               <BackgroundBlogCard title={'Movie Date'} image={'./movie_date.jpg'}/>
               <BackgroundBlogCard title={'Walk Date'} image={'./walk_date.jpg'}/>
@@ -16,6 +17,7 @@ const NewDate = () => {
               <BackgroundBlogCard title={'Amusement Park Date'} image={'./amusement_park_date.jpg'}/>
               <BackgroundBlogCard title={'Coffee Date'} image={'./coffee_date.jpg'}/>
               <BackgroundBlogCard title={'Dinner Date'} image={'./dinner_date.jpg'}/>
+              <BackgroundBlogCard title={'Roblox Date'} image={'./roblox_date.jpg'}/>
             </div>
         </div>
     </div>
