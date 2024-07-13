@@ -18,7 +18,7 @@ interface BackgroundBlogCardProps {
 
 export function BackgroundBlogCard({ image, title }: BackgroundBlogCardProps) {
 
-  const sendEmail = (e) => {
+  const sendEmail = (e: MouseEvent<HTMLDivElement>) => {
     e.preventDefault();
     console.log('in')
     const templateParams = {
