@@ -19,6 +19,7 @@ const NewDate = () => {
               <BackgroundBlogCard title={'Dinner Date'} image={'./dinner_date.jpg'}/>
               <BackgroundBlogCard title={'Roblox Date'} image={'./roblox_date.jpg'}/>
             </div>
+            <a href='/main' className='w-max py-3 px-8 rounded-xl bg-gray-palette hover:bg-gray-700 text-white-palette montserrat text-center mx-auto block'>Back</a>
         </div>
     </div>
   )
