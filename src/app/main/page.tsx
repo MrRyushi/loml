@@ -1,11 +1,8 @@
 import { BlogCard } from '../components/BlogCard';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPlus } from '@fortawesome/free-solid-svg-icons';
 import { config } from '@fortawesome/fontawesome-svg-core';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 config.autoAddCss = false;
 
-const addBtn = <FontAwesomeIcon icon={faPlus}/>
 
 const MainPage = () => {
   return (
@@ -30,7 +27,7 @@ const MainPage = () => {
             link={'/roblox'}
           />
           <div className='flex justify-center items-center'>
-            <a className='text-2xl text-gray-palette hover:text-slate-600 object-center flex items-center justify-center gap-2' href='/new-date'>New <span className='text-xl'>{addBtn}</span></a>
+            <a className='text-2xl text-gray-palette hover:text-slate-600 object-center flex items-center justify-center gap-2 text-center' href='/new-date'>More dates? (Click me hehe)</a>
           </div>
         </div>
         <a href='/' className='w-max py-3 px-8 rounded-xl bg-gray-palette hover:bg-gray-700 text-white-palette montserrat text-center mx-auto block'>Back</a>

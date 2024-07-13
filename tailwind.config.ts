@@ -28,6 +28,16 @@ const config: Config = withMT({
         "light-palette":"#F2E7D5",
         "white-palette":"#F7F7F7"
       },
+
+      screens: {
+        'sm': '640px',
+        'md': '768px',
+        'lg': '1024px',
+        'xl': '1280px',
+        '2xl': '1536px',
+        '3xl': '1920px',
+        '4xl': '2560px', // Custom breakpoint for 4xl screen size
+      },
     },
   },
   plugins: [],
