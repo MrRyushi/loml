@@ -17,12 +17,6 @@ const Roblox = () => {
             <div className='md:flex flex-wrap justify-center md:gap-5 space-y-3 md:space-y-0 xl:h-1/2'>
                 <VideoDefault video={'/roblox1.mp4'}/>
                 <VideoDefault video={'/roblox2.mp4'}/>
-                <VideoDefault video={'/primal_pursuit.mp4'}/>
-                <VideoDefault video={'/altitorture1.mp4'}/>
-                <VideoDefault video={'/altitorture2.mp4'}/>
-                <VideoDefault video={'/altitorture3.mp4'}/>
-                <VideoDefault video={'/altitorture4.mp4'}/>
-                <VideoDefault video={'/altitorture5.mp4'}/>
             </div>
             <a href='/main' className='w-max py-3 px-8 rounded-xl bg-gray-palette hover:bg-gray-700 text-white-palette montserrat text-center mx-auto block'>Back</a>
         </div>
